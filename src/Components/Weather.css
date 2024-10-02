@@ -1,0 +1,111 @@
+.speed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    align-items: center;
+}
+
+.cards {
+    padding: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.searchBar {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    height: 5vh;
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+
+}
+
+::placeholder {
+    color: white;
+    padding: 10px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 80%;
+    color: white;
+}
+
+.humidity {
+    font-size: 35px;
+    gap: 10px;
+
+}
+
+.wind {
+    font-size: 35px;
+    gap: 10px;
+}
+
+.speedImg {
+    width: 60px;
+}
+.searchImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    max-width: 300px;
+}
+
+@media only screen and (max-width:400px) {
+    .all {
+        font-size: 16px !important;
+    }
+
+    .temp {
+        font-size: 25px !important;
+    }
+
+    .speedImg {
+        width: 40px;
+    }
+
+    .searchBar {
+        height: 3vh;
+        padding: 5px 5px 8px 10px;
+        font-size: 16px;
+
+    }
+
+    ::placeholder {
+        font-size: 16px;
+        padding: 5px;
+
+    }
+
+    .icons {
+        width: 15px;
+        height: 15px;
+        left: 85%;
+
+    }
+    .searchImage{
+        padding:20px;
+        max-width: 300px;
+    }
+}

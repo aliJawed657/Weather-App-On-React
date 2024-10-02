@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.gifer.com/8YDk.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 10%;
+  height: 100vh;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
